@@ -3,7 +3,7 @@ const router = express.Router();
 const userController = require("../controller/userController");
 
 // routes
-router.get("/", userController.home);
+// router.get("/", userController.home);
 router.use('/api', require('./users'));
 router.use('/api', require('./orders'));
 
