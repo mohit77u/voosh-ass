@@ -3,7 +3,6 @@ const User = require("../model/User");
 // home route
 exports.home = async(req, res) => {
     return res.send({
-        status: true,
         success: true
     })
 }
